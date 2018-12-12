@@ -11,9 +11,9 @@ windowBg: color_dark;                           // Window backgrounds
 windowFg: color_white;                          // Main text / chat text
 windowBgOver: #101010;                          
 windowBgRipple: #3d3c3c;                        
-windowFgOver: windowFg;                         // black: fallback for over text color
+windowFgOver: color_black;                      // black: fallback for over text color
 windowSubTextFg: color_white;                   // Chats list message preview text
-windowSubTextFgOver: #919191;                   // Mouse over chats list message preview text
+windowSubTextFgOver: #948F8F;                   // Mouse over chats list message preview text
 windowBoldFg: color_white;                      
 windowBoldFgOver: color_orange_light;           // Mouse over chats list chat name text
 windowBgActive: color_orange_dark;              // Active button background
@@ -190,8 +190,8 @@ dialogsUnreadFgOver: dialogsUnreadFg;
 dialogsBgActive: #ff9900;                       
 dialogsNameFgActive: color_white;
 dialogsChatIconFgActive: dialogsNameFgActive;
-dialogsDateFgActive: color_white;
-dialogsTextFgActive: color_white;
+dialogsDateFgActive: color_black;
+dialogsTextFgActive: color_black;                 // chat list message text for current (active) chat
 dialogsTextFgServiceActive: dialogsTextFgActive;
 dialogsDraftFgActive: #c6e1f7;
 dialogsVerifiedIconBgActive: dialogsTextFgActive;
@@ -267,7 +267,7 @@ historyScrollBg: #0000001a;
 historyScrollBgOver: #0000002c;
 
 msgInBg: #242424;                               // Incoming message
-msgInBgSelected: #222323;                       // Selected incoming message background
+msgInBgSelected: #3C3C3C;                       // Selected incoming message background
 msgOutBg: #3C3C3C;                              // Outcoming message
 msgOutBgSelected: #222323;                      // Selected outgoing message background
 
