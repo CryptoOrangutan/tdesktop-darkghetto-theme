@@ -11,7 +11,7 @@ windowBg: color_dark;                           // Window backgrounds
 windowFg: color_white;                          // Main text / chat text
 windowBgOver: #101010;                          
 windowBgRipple: #3d3c3c;                        
-windowFgOver: color_black;                      // black: fallback for over text color
+windowFgOver: color_white;                      // black: fallback for over text color
 windowSubTextFg: color_white;                   // Chats list message preview text
 windowSubTextFgOver: #948F8F;                   // Mouse over chats list message preview text
 windowBoldFg: color_white;                      
